@@ -1511,6 +1511,16 @@ footer.footer{
 	background: #ecf5fe;
 }
 
+.login-box select.form-control{
+	padding: 10px 16px;
+	height: auto;
+	cursor: pointer;
+}
+
+.login-box .form-control:focus{
+	border-color: rgba(25,118,209,0.4);
+}
+
 .login-options{
 	display: flex;
 	justify-content: space-between;
