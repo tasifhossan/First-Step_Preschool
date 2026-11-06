@@ -1555,3 +1555,69 @@ footer.footer{
 		padding: 60px 0;
 	}
 }
+
+
+/*************************************/
+/*****   Navbar Login/Signup btn *****/
+/*************************************/
+
+.navbar .navbar-nav .nav-link.nav-btn{
+	padding: 4px 18px;
+	border: 2px solid transparent;
+	border-radius: 4px;
+	font-weight: 500;
+}
+
+.navbar .navbar-nav .nav-link.nav-btn-login{
+	background: transparent;
+	color: #1976d2;
+	border-color: #1976d2;
+}
+
+.navbar .navbar-nav .nav-link.nav-btn-login:hover,
+.navbar .navbar-nav .nav-link.nav-btn-login:focus,
+.navbar .navbar-nav .nav-link.nav-btn-login.active{
+	background: #1976d2;
+	color: #fff;
+	border-color: #1976d2;
+}
+
+.navbar .navbar-nav .nav-link.nav-btn-signup{
+	background: #ff5722;
+	color: #fff;
+	border-color: #ff5722;
+}
+
+.navbar .navbar-nav .nav-link.nav-btn-signup:hover,
+.navbar .navbar-nav .nav-link.nav-btn-signup:focus,
+.navbar .navbar-nav .nav-link.nav-btn-signup.active{
+	background: #1976d2;
+	color: #fff;
+	border-color: #1976d2;
+}
+
+.navbar .navbar-nav .nav-link.nav-btn.active{
+	box-shadow: 0 0 0 4px rgba(25,118,209,0.25);
+}
+
+.navbar .navbar-nav .nav-item:nth-last-child(2){
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 991px){
+	.slicknav_nav a.nav-btn{
+		border-radius: 4px;
+		margin: 4px 5px;
+		text-align: center;
+	}
+
+	.slicknav_nav a.nav-btn-login{
+		border: 2px solid #1976d2;
+		color: #1976d2;
+	}
+
+	.slicknav_nav a.nav-btn-signup{
+		background: #ff5722;
+		color: #fff;
+	}
+}
